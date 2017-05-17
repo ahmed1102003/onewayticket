@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="main/|test/" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/javax.mail-1.5.1.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/dsn.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/imap.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/mail.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/smtp.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/pop3.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/net.sf.jadclipse_3.3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Desktop/javax.mail-1.5.1.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Desktop/javaee-api-7.0.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/selenium-server-standalone-2.52.0.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/gherkin-3.2.0.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/cucumber-reporting-1.4.0.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/cucumber-junit-1.2.4.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/cucumber-java-1.2.4.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/cucumber-core-1.2.4.jar"/>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/jenkins/winstone.jar"/>
+	<classpathentry kind="lib" path="/Users/ahmadyounis/Downloads/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

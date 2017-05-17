@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.668502">
+<testcase classname="Testing login page" name="Testing login page" time="15.668502">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[Welcome]&gt; but was:&lt;[HTTP Status 404 - /logIn/Login]&gt;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#10;&#9;at secondCCRX.secondCCRX.testingloginsteps.Check_Messages(testingloginsteps.java:154)&#10;&#9;at ✽.Then 'Welcome' message will display at '/html/body/h1'(src/test/BDD/Testingloginpage.feature:9)&#10;"><![CDATA[Given User at login page....................................................passed
+When I enter Admin  in the username.........................................passed
+And I enter Admin  in the password..........................................passed
+And I click on login button.................................................passed
+Then 'Welcome' message will display at '/html/body/h1'......................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[Welcome]> but was:<[HTTP Status 404 - /logIn/Login]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at secondCCRX.secondCCRX.testingloginsteps.Check_Messages(testingloginsteps.java:154)
+	at ✽.Then 'Welcome' message will display at '/html/body/h1'(src/test/BDD/Testingloginpage.feature:9)
+]]></failure>
+</testcase>
+</testsuite>
