@@ -7,7 +7,7 @@ When I enter test1 in the name
 And I enter a1 in the recipients
 And I enter SF in the location
 And I click on Search button
-Then 'Srroy the rest is close right now' message will display at '/html/body/pre'
+#Then 'Srroy the rest is close right now' message will display at '/html/body/pre'
 
 #Scenario: Testing invalid username and valid password
 
